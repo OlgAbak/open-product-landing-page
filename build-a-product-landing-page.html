@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+  <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"></link>
+  <title>Graf</title>
+</head>
+<body>
+<main id="main-section">
+      <header id="header">
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#SHOP">SHOP</a></li>
+          <li><a class="nav-link" href="#DEALERS">DEALERS</a></li>
+          <li><a class="nav-link" href="#RENTALS">RENTALS</a></li>
+          <li><a class="nav-link" href="#FAQ">FAQ</a></li>
+          <li><a class="nav-link" href="#CATALOG">CATALOG</a></li>
+          <li><a class="nav-link" href="#SIZE CHARTS">SIZE CHARTS</a></li>
+          <li><a class="nav-link" href="#EVENTS">EVENTS</a></li>
+        </ul>
+      </nav>
+      <img id="header-img" src="https://wifa.at/bilder/intern/shoplogo/WIFA-JTL-SHOP-LOGO.png" alt="WIFA logo">   
+  </header>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+        <input id="email" name="email" type="email" placeholder="email address" required>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+  </section>
+  <section class="main-section">
+    <header id="SHOP">
+      <h3>Our products</h3>
+        <ul>
+          <li>Ice scates</li>
+          <li>Blades</li>
+          <li>Ice scating accessories</li>
+          <li>Roller scates</li>
+          <li>Plates</li>
+          <li>Quad wheels for roller scates</li>
+          <li>Roller scating accessories</li>
+          <li>Discounts and second quality boots</li>
+        </ul>
+    </header>
+  </section>
+  <section class="main-section">
+    <header id="DEALERS">
+      <h4>WIFA DEALERS for ice skates</h4>
+      <h4>WIFA DEALERS for roller skates</h4>
+    </header>
+  </section>
+  <section class="main-section">
+    <header id="RENTALS">
+      <h4>WIFA ICE SKATES RENTALS (VIENNA)</h4>
+      <h4>ROLLER SKATES RENTALS (VIENNA)</h4>
+    </header>
+  </section>
+  <section class="main-section">
+    <header id="FAQ">
+      <h4>Roller skates FAQ</h4>
+      <h4>Ice skates FAQ</h4>
+      <h4>Models guide for ice skates</h4>
+      <h4>Payment options</h4>
+      <h4>Shipment</h4>
+      <h4>Courses and tips</h4>
+    </header>
+  </section>
+  <section>
+    <header id="CATALOG">
+      <h4>WIFA catalog & technical guide</h4>
+      <h4>Download center</h4>
+    </header>
+  </section>
+  <section>
+    <header id="SIZE CHARTS">
+      <h4>Print insoles</h4>
+      <h4>Sizing charts for ice scates</h4>
+      <h4>Sizing charts for roller scates</h4>
+      <h4>Gloves size chart</h4>
+    </header>
+  </section>
+  <section>
+    <header id="EVENTS">
+      <h1>WIFA EVENT TIPS & COLLABORATIONS</h1>
+    </header>
+      <iframe id="video" src="https://www.youtube.com/embed/FJHa8TEmcGs?si=DTcuw4AiHLdP3Yrf&amp;controls=0"></iframe>
+  </section>
+</main>
+</body>
+</html>
+
+nav > ul {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  margin: -5;
+  margin-left: 30;
+}
+li > a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+form {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 10px;
+  border-bottom: 5px;
+}
+@media (max-width: 1280px) {
+  #nav-bar {
+    width: 700px;
+  }
+  #header-img {
+    width: 50px;
+  }
+}
+#nav-bar {
+  position: fixed;
+}
